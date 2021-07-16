@@ -1,0 +1,78 @@
+<style>
+  html {
+      height: 100%;/*needed to set background color*/
+  }
+  body {
+    background-image: url("https://brixtonforged.com/wp-content/uploads/2015/10/brixton-forged-liberty-walk-gt-r-brixton-m51-targa-series-matte-black-red-airlift-04.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1 {
+  color: #FAED26;
+  font-family: "Candara", Times, serif;
+  font-size: 40px;
+  text-align: center;
+}
+#description {
+  color: #9D8D8F;
+  font-family: "Candara", Times, serif;
+  font-size: 20px;
+  text-align: center;
+}
+p {
+  color: white;
+  font-family: "Candara", Times, serif;
+  font-size: 20px;
+}
+label {
+  color: white;
+  font-family: "Candara", Times, serif;
+  font-size: 20px;
+}
+form {
+  background-color: #46344E;
+  padding: 30px 30px;
+  margin: auto;
+  opacity: 0.95;
+  width: 500px;
+  overflow: hidden;
+}
+input, select, textarea {/*name email age make comments*/
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+/*
+#number {
+  width: 6em;
+}
+*/
+::placeholder {
+  font-family: "Candara", Times, serif;
+}
+select {
+  color: grey;
+  width: 100%;
+}
+input[type = submit] {/*submit button*/
+  background-color: #9B7B6F;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type = text] {
+  width: 95%;
+}
+input[type = email] {
+  width: 95%;
+}
+input[type = number] {
+  width: 95%;
+}
+textarea {
+  width: 95%;
+}
+</style>

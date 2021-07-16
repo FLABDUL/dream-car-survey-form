@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Abdul Hakim&#39;s Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta />
+  </head>
+  <body>
+    <div>
+      <h1 id="title">Dream Car Survey Form</h1>
+      <p id="description">Fill in your details and select the customisations for your dream car!</p>
+    </div>
+    <div id="form">
+      <form id="survey-form" action="https://www.freecatphotoapp.com/submit-cat-photo">
+        <div>
+          <label for="fname" id="name-label">Name:</label><br><br>
+        <input id="name" type="text" placeholder="Enter your name" required>
+        </div><br>
+        <div>
+          <label for="femail" id="email-label">Email:</label><br><br>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        </div><br>
+        <div>
+          <label for="fnumber" id="number-label">Age:</label><br><br>
+        <input id="number" type="number" placeholder="Pick number of years" min="18" max="90" required>
+        </div>
+        <div><br>
+          <label for="cars">Make:</label><br><br>
+  <select name="cars" id="dropdown">
+    <option value="opel">Audi</option>
+    <option value="saab">BMW</option>
+    <option value="saab">Lexus</option>
+    <option value="volvo">Mercedes</option>
+    <option value="audi">Porsche</option>
+  </select>
+        </div>
+        <div>
+          <p>Gearbox:</p>
+          <input type="radio" id="automatic" name="gearbox" value="automatic"
+         checked>
+  <label for="automatic">Automatic</label><br>
+          <input type="radio" id="manual" name="gearbox" value="manual"
+         checked>
+          <label for="manual">Manual</label><br>
+        </div>
+        
+        
+        <div>
+          <p>Modifications:</p>
+          <input type="checkbox" id="custom-paint" name="mod" value="custom-paint">
+          <label for="custom-paint">Custom paint job</label><br>
+          <input type="checkbox" id="neon" name="mod" value="neon">
+          <label for="neon">Neon lights</label><br>
+          <input type="checkbox" id="seats" name="mod" value="seats">
+          <label for="seats">Sports seats</label><br>
+          <input type="checkbox" id="suspension" name="mod" value="suspension">
+          <label for="sports-seats">Suspension upgrade</label><br>
+          <input type="checkbox" id="turbocharger" name="mod" value="turbocharger">
+          <label for="turbocharger">Turbocharger</label><br><br>
+        </div>
+        <div>
+          <label for="comments">What else would you want of your dream car?</label><br><br>
+<textarea placeholder="Enter your ideas" id="comments" name="comments" rows="4" cols="50"></textarea>
+        </div>
+        <div><br>
+  <input type="submit" value="Submit" id="submit">
+          </form>
+        </div>
+    </div>
+  </body>
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
